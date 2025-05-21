@@ -4,40 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar">
-            <ul class="isi-navbar">
-                <li><a href="help">HOME</a></li>
-                <li><a href="about">ABOUT</a></li>
-                <li><a href="help">SERVICE </a></li>
-            </ul>
-        </nav>
-        <div class="content">
-            <h1>Hello, i'm Delon Nicholas Hermawan,</h1>
-            <h1>a <span class="highlight">Web Developer</span></h1>
-            <h4 class="desc">Beginner</h4>
-            <div class="medsos">
-            <button class="mb"><img src="./assets/image/fb.png" alt=""></button>
-            <a href="https://www.instagram.com/delonnicholas?igsh=ZGIxcTFmNzYzYWp2" target="_blank">
-                <button class="mb"><img src="./assets/image/ig.png" alt=""></button>
-            </a>
-            <button class="mb"><img src="./assets/image/yt.png" alt=""></button>
-            <button class="mb"><img src="./assets/image/tw.png" alt=""></button>
-        </div>
-        <button class="button">CONTACT ME</button>
-        </div>
-        <div class="flipbox">
-            <div class="flip">
-                <div class="flip-front"></div>
-                <div class="flip-back"></div>
-            </div>
-        </div>
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Nim</th>
+                <th>Jenis Kelamin</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bayu</td>
+                <td>0329808325</td>
+                <td>Laki-laki</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Delon</td>
+                <td>0329808325</td>
+                <td>Laki-laki</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Raffi</td>
+                <td>0329808325</td>
+                <td>Laki-laki</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Nama</th>
+                <th colspan="2">Nilai</th>
+            </tr>
+            <tr>
+                <td>Tugas 1</td>
+                <td>Tugas 2</td>
+                <td>Kehadiran</td>
+                <td>UTS</td>
+                <td>UAS</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>bayu</td>
+                <td colspan="3">100</td>
+                <td colspan="2">90</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td rowspan="2">delon</td>
+                <td rowspan="2">90</td>
+                <td colspan="2">88</td>
+                <td colspan="2" rowspan="2">100</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>90</td>
+                <td>91</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Raffi</td>
+                <td>90</td>
+                <td>90</td>
+                <td colspan="2">100</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 
 </html>
